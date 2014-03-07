@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>
+    JobHive - Dashboard
+  </title>
+  <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/se7en-font.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/isotope.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/jquery.fancybox.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/fullcalendar.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/wizard.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/select2.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/morris.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/datatables.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/datepicker.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/timepicker.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/colorpicker.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/bootstrap-switch.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/bootstrap-editable.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/daterange-picker.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/typeahead.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/summernote.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/ladda-themeless.min.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/social-buttons.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/pygments.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/style.css" media="all" rel="stylesheet" type="text/css" /><link href="stylesheets/color/green.css" media="all" rel="alternate stylesheet" title="green-theme" type="text/css" /><link href="stylesheets/color/orange.css" media="all" rel="alternate stylesheet" title="orange-theme" type="text/css" /><link href="stylesheets/color/magenta.css" media="all" rel="alternate stylesheet" title="magenta-theme" type="text/css" /><link href="stylesheets/color/gray.css" media="all" rel="alternate stylesheet" title="gray-theme" type="text/css" /><link href="stylesheets/jquery.fileupload-ui.css" media="screen" rel="stylesheet" type="text/css" /><link href="stylesheets/dropzone.css" media="screen" rel="stylesheet" type="text/css" /><script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script><script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script><script src="javascripts/bootstrap.min.js" type="text/javascript"></script><script src="javascripts/raphael.min.js" type="text/javascript"></script><script src="javascripts/selectivizr-min.js" type="text/javascript"></script><script src="javascripts/jquery.mousewheel.js" type="text/javascript"></script><script src="javascripts/jquery.vmap.min.js" type="text/javascript"></script><script src="javascripts/jquery.vmap.sampledata.js" type="text/javascript"></script><script src="javascripts/jquery.vmap.world.js" type="text/javascript"></script><script src="javascripts/jquery.bootstrap.wizard.js" type="text/javascript"></script><script src="javascripts/fullcalendar.min.js" type="text/javascript"></script><script src="javascripts/gcal.js" type="text/javascript"></script><script src="javascripts/jquery.dataTables.min.js" type="text/javascript"></script><script src="javascripts/datatable-editable.js" type="text/javascript"></script><script src="javascripts/jquery.easy-pie-chart.js" type="text/javascript"></script><script src="javascripts/excanvas.min.js" type="text/javascript"></script><script src="javascripts/jquery.isotope.min.js" type="text/javascript"></script><script src="javascripts/isotope_extras.js" type="text/javascript"></script><script src="javascripts/modernizr.custom.js" type="text/javascript"></script><script src="javascripts/jquery.fancybox.pack.js" type="text/javascript"></script><script src="javascripts/select2.js" type="text/javascript"></script><script src="javascripts/styleswitcher.js" type="text/javascript"></script><script src="javascripts/wysiwyg.js" type="text/javascript"></script><script src="javascripts/typeahead.js" type="text/javascript"></script><script src="javascripts/summernote.min.js" type="text/javascript"></script><script src="javascripts/jquery.inputmask.min.js" type="text/javascript"></script><script src="javascripts/jquery.validate.js" type="text/javascript"></script><script src="javascripts/bootstrap-fileupload.js" type="text/javascript"></script><script src="javascripts/bootstrap-datepicker.js" type="text/javascript"></script><script src="javascripts/bootstrap-timepicker.js" type="text/javascript"></script><script src="javascripts/bootstrap-colorpicker.js" type="text/javascript"></script><script src="javascripts/bootstrap-switch.min.js" type="text/javascript"></script><script src="javascripts/typeahead.js" type="text/javascript"></script><script src="javascripts/spin.min.js" type="text/javascript"></script><script src="javascripts/ladda.min.js" type="text/javascript"></script><script src="javascripts/moment.js" type="text/javascript"></script><script src="javascripts/mockjax.js" type="text/javascript"></script><script src="javascripts/bootstrap-editable.min.js" type="text/javascript"></script><script src="javascripts/xeditable-demo-mock.js" type="text/javascript"></script><script src="javascripts/xeditable-demo.js" type="text/javascript"></script><script src="javascripts/address.js" type="text/javascript"></script><script src="javascripts/daterange-picker.js" type="text/javascript"></script><script src="javascripts/date.js" type="text/javascript"></script><script src="javascripts/morris.min.js" type="text/javascript"></script><script src="javascripts/skycons.js" type="text/javascript"></script><script src="javascripts/fitvids.js" type="text/javascript"></script><script src="javascripts/jquery.sparkline.min.js" type="text/javascript"></script><script src="javascripts/dropzone.js" type="text/javascript"></script><script src="javascripts/main.js" type="text/javascript"></script><script src="javascripts/respond.js" type="text/javascript"></script><script src="javascripts/handlebars.js" type="text/javascript"></script><script src="javascripts/data.js" type="text/javascript"></script>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+</head>
+
+<body class="page-header-fixed bg-1">
+  <div class="modal-shiftfix">
+    <!-- Navigation -->
+    <div class="navbar navbar-fixed-top">
+      <div class="container-fluid top-bar">
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown user hidden-xs">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+              <div class="pull-left"><b>Andrew Quinn</b><br>JobHive Admin</div><b class="caret"></b>
+              <img width="55" height="61" src="images/avatar.png"/></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">
+                  <i class="fa fa-user"></i>My Account</a>
+                </li>
+                <li><a href="#">
+                  <i class="fa fa-gear"></i>Account Settings</a>
+                </li>
+                <li><a href="login1.html">
+                  <i class="fa fa-sign-out"></i>Logout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        <button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="logo" href="index.html">JobHive</a>
+      </div>
+      <div class="container-fluid main-nav clearfix">
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li>
+              <a href="overview.html"><span aria-hidden="true"></span>Overview</a>
+            </li>
+            <li><a href="invite.html">
+              <span aria-hidden="true"></span>Invite Users</a>
+            </li>
+            <li><a href="add.html">
+              <span aria-hidden="true"></span>Add Users</a>
+            </li>
+            <li><a href="search.html">
+              <span aria-hidden="true"></span>Search</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Navigation -->
+    <!-- Page Title -->
+      <div class="container-fluid">
+        <div class="page-title container">
+          <h3>
+            search users
+          </h3>
+        </div>
+    <!-- End Page Title -->
+    <!-- Search Form -->
+    <div class="container main-content">
+      <form id="search-input" class="form-group">
+        <div class="row">
+          <div class="col-md-4">
+            <input id="first-name" class="form-control" placeholder="first name" type="text">
+          </div>
+          <div class="col-md-4">
+            <input id="last-name" class="form-control" placeholder="last name" type="text">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <input id="city" class="form-control" placeholder="city" type="text">
+          </div>
+          <div class="col-md-2">
+            <select id="state" class="form-control"><option value="" disabled selected>state</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option></select>
+          </div>
+          <div class="col-md-2">
+            <input id="zipcode" class="form-control" placeholder="zip code" type="text">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <input id="college" class="form-control" placeholder="college" type="text">
+          </div>
+          <div class="col-md-4">
+            <input id="grad-year" class="form-control" placeholder="graduation year" type="text">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <select id="industry" class="form-control" placeholder="industry"><option value="" disabled selected>industry</option><option value="tech">Tech</option><option value="hospitality">Hospitality</option><option value="legal">Legal</option><option value="entertainment">Entertainment</option></select>
+          </div>
+          <div class="col-md-4">
+            <select id="status" class="form-control" placeholder="status"><option value="" disabled selected>status</option><option value="active">Active</option><option value="queue">In Queue</option><option value="pending">Invitation Pending</option></select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7"></div>
+          <div class="col-md-2">
+            <button id="search" class="btn btn-primary" type="submit">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- End Page Title -->
+    <!-- Results Count -->
+    <div id="results-count" class="container main-content">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+        showing 3 of 1,294 search results
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <button id="give-invites" class="btn btn-primary">Give Invitations</button>
+          <button id="add-all" class="btn btn-primary">Add All</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Results Count -->
+    <!-- Search Results -->
+    <div class="container main-content search-container">
+      <script id="search-results" type="x-handlebars-template">
+        {{#each this}}
+          <div class="result row">
+            <div class="col-md-2">
+              <img src="images/person.jpg">
+            </div>
+            <div class="col-md-8 search-info">
+              <div class="row">
+                <div class="col-md-4 col-xs-4 col-sm-4 name"><h3><a href="/{{custId}}">{{name}}</a></h3></div>
+                <div class="col-md-8 col-xs-8 col-sm-8 phone"><a href="tel:+1{{phone}}"><h3>{{phone}}</h3></a></div>
+              </div>
+              <div class="row">
+                  <div class="clearfix visible-xs visible-sm"></div>
+                  <div class="col-md-12 col-xs-3 col-sm-3">
+                    <div class="industry"><p>{{industry}}<p></div>
+                  </div>
+                  <div class="col-md-12 col-xs-3 col-sm-3">
+                    <div class="city"><p>{{city}}</p></div>
+                  </div>
+                {{#if activeFlag}}
+                  <div class="reset-password col-xs-3 col-sm-3"><a href="/password.html">Reset Password</a></div>
+                {{/if}}
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-5 col-xs-5 invites-remaining">
+                  <div class="col-md-2 col-sm-1 col-xs-1" id="invite-number"><p>{{invitesRemaining}}</p></div>
+                  <div class="col-md-8 col-sm-4 col-xs-4"><p>Invitations Remaining</p></div>
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-5 status">
+                  <p>Status: {{status}}</p>
+                </div>
+              {{#if queueFlag}}
+                <div class="col-md-2 col-sm-1 col-xs-1">
+                  <button id="add" class="btn btn-primary">Add</button>
+                </div>
+              {{/if}}
+              {{#if invitationFlag}}
+                <div class="col-md-2 col-sm-1 col-xs-1">
+                  <a href="/resend-invite.html">Resend</a>
+                </div>
+              {{/if}}
+              </div>
+            </div>
+          </div>
+        {{/each}}
+        <div>
+        <ul class="pagination">
+          <li><a href="#">&laquo;</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">&raquo;</a></li>
+        </ul>
+      </div>
+      </script> 
+    </div>
+
+     <!-- End Search Results -->
